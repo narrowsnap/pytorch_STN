@@ -16,21 +16,24 @@ This is a third party implementation of STN in pytorch which written in [paper](
 
 ## Results
 
-| Network | Test Acc|
-|:-:|:-:|:-:|
-| Paper Best| 84.1 |
-| Implement| 85.71 | 
+| Network | Test Acc | 
+|:---:|:---:|
+| Paper Best| 84.1 | 
+| Implement| 85.71 |  
 
 ## Usage
 
 For training, use following command.
 
 ```bash
-$ python trainer.py
+$ python train.py
 ```
 
 Currently only cuda available device support.
 
+### docker
+
+See [README.md](docker/README.md)
 
 ## References
 
