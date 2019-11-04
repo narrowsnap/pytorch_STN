@@ -35,6 +35,22 @@ Currently only cuda available device support.
 
 See [README.md](docker/README.md)
 
+## Visualization
+
+### single stn (learn [[a, 0, c], [0, e, f]])
+
+![](demo/single_stn_01.png)
+
+![](demo/single_stn_02.png)
+
+### multi stn (learn [[parallel, 0, c], [0, parallel, f]], parallel=[0.9, 0.7, 0.5, 0.3, 0.1]), 
+
+![](demo/multi_stn97531_01.png)
+
+![](demo/multi_stn97531_02.png)
+
+Seen from the results, parallel=[0.9, 0.7, 0.5] is enough.
+
 ## References
 
 
